@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.slider img {
+  height: 450px;
+  object-fit: cover;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.background-nav {
+  background-color: aliceblue;
+}
+
+.button-category:after{
+  content: "";
+  height: 300px;
+  width: 60px;
+  background-color: red;
+}
